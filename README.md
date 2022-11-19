@@ -13,7 +13,7 @@ The core idea of GentleBreeze is data transmission (particularly, internet shari
 Consider a flip phone that misses the functionality of a network hotspot or that has the hotspot disabled despite being otherwise lawfully unlocked (a real world case). Or consider a smartwatch not offering the hotspot feature "because it would drain the battery", no matter how sparingly you are prepared to use it. Or. Or.
 
 With the rushed adoption of the 5G spectrum and the impending 3G sunset 80% of the mobile phones in the United States suddenly turned into pocket PCs. If you still want to use your old phone, you need another one to keep it connected on the go.
-One possible solution is a Wi-Fi hotspot (you can find one for $10..$15, or even cheaper), but such devices aren't capable of voice calling, and forwarding calls via Wi-Fi (e.g. via a SIP connection) is unreliable.
+One possible solution is a Wi-Fi hotspot (you can find one for $10..$15, or even cheaper), but such devices aren't capable of voice calling, and forwarding incoming calls via Wi-Fi (e.g. via a SIP connection) is unreliable (keywords: "push notifications").
 Another possible solution is to use a $20..$25 flip phone for calling and texting (directly or via a Bluetooth audio and/or a remote control Wi-Fi connection) and your favorite smartphone for the rest (i.e. data).
 However, the flip phone is not necessarily capable of (or configurable for) sharing its internet connection. It may need our help.
 
