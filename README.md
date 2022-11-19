@@ -28,3 +28,11 @@ Fortunately,
 Our train of thought can be followed via the Issues page.
 
 Links to component projects (in their own programming languages, and *possibly* under their own licenses, though we'll make our best to keep as much as possible in the public domain) will appear here.
+
+## Legal
+
+Nothing in this project should be understood as a means of circumventing the contractual restrictions placed on data connection sharing any more than reading aloud from a lawfully obtained book copy circumvents the end user license agreement implicitly binding the book buyer, or any more than smelling cooking meat amounts to eating it. The maximum realistic data transmission speed achievable via an audio channel, without going ultrasound, is a few kilobits per second; for a video channel, assuming a sharp high-resolution transmitter screen, it is tens of kilobytes per second — barely enough to open a banking app or check mail, and a tiny fraction of data transmission speeds normally offered by 4G LTE. One would achieve much greater connection sharing bandwith (albeit with poorer latency) by simply downloading music or photos onto a phone and sharing them over MTP.
+
+At the same time, no technological consideration should obscure a principled one. For that reason, each of the phone plans we ourselves use for testing purposes explicitly includes an internet hotspot / internet sharing / connection sharing service, and we advise you to do the same. _Good_ carriers (no name calling, though the leading initial is 'U') offer data sharing with every plan, and it adds less to your bill than those annoying fees charged by Uncle Sam.
+
+Also, this is not a good way to copy data from enterprise or government networks. You will get caught and spend the rest of your days in Moscow.
