@@ -29,6 +29,25 @@ Our train of thought can be followed via the Issues page.
 
 Links to component projects (in their own programming languages, and *possibly* under their own licenses, though we'll make our best to keep as much as possible in the public domain) will appear here.
 
+### Progress: end of 2022
+
+As we explore multiple alternative media, the present breakdown of [issues](../../issues) has partly gotten out of sync.
+Our 2022 achievements, however, are as follows:
+
+* TUN exit node (Android) -- parsing low-level ICMP request and re-packaging high-level ICMP response (ping).
+* TUN exit node (browser) -- no such thing is presently possible by itself, but there are VPN exit nodes on the web supporting e.g. Wireguard via WebRTC.
+* Audio (air) -- phase modulation, carrier detection and symbol boundary detection.
+* Audio (cable) -- refined a working (Nexus 5 -- Moto Z3) full duplex attenuator circuit for UART or pseudo-UART: ~24 kOhm in, ~2.2 kOhm out; no semiconductors, inductors or capacitors.
+
+Our current roadblocks/impediments are as follows:
+
+* MTP without Android extensions -- tested. Protocol limitations disallow partial file modification. Together with Javascript File API limitations it effectively renders the MTP channel unusable (unless it's possible to index a file while it is being transfered).
+
+Our present research is in the following areas:
+
+* Bluetooth -- recent versions of Android and W10M support BLE server profiles, but not all profiles are available to applications. (Will a Qualcomm BREW device offer greater control?)
+* Audio (air) -- Viterbi or Fano?
+
 ## Legal
 
 Nothing in this project should be understood as a means of circumventing the contractual restrictions placed on data connection sharing any more than reading aloud from a lawfully obtained book copy circumvents the end user license agreement implicitly binding the book buyer, or any more than smelling cooking meat amounts to eating it. The maximum realistic data transmission speed achievable via an audio channel, without going ultrasound, is a few kilobits per second; for a video channel, assuming a sharp high-resolution transmitter screen, it is tens of kilobytes per second — barely enough to open a banking app or check mail, and a tiny fraction of data transmission speeds normally offered by 4G LTE. One would achieve much greater connection sharing bandwith (albeit with poorer latency) by simply downloading music or photos onto a phone and sharing them over MTP.
